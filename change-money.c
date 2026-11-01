@@ -4,14 +4,14 @@
 int main()
 {
     int a,b;
-    printf("ÇëÊäÈëÉÌÆ·¼Û¸ñ\n");
+    printf("è¯·è¾“å…¥å•†å“ä»·æ ¼\n");
     scanf("%d",&a);
-    printf("ÇëÊäÈëÆ±Ãæ\n");
+    printf("è¯·è¾“å…¥ç¥¨é¢\n");
     scanf("%d",&b);
     if(b>a){
-        printf("ÕÒÄú%dÔª",b-a);
+        printf("æ‰¾æ‚¨%då…ƒ",b-a);
     }else{
-         printf("Ç®²»¹»");
+         printf("é’±ä¸å¤Ÿ");
     }
     return 0;
 }
